@@ -32,3 +32,66 @@ _Add some screenshots of the app here (you can upload images to GitHub or any ot
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/MaddyRizvi/journal_app
+
+# Journal App
+
+## 2. Open the project in Android Studio:
+
+1. Open Android Studio and select Open an existing project.
+2. Navigate to the project directory and open the project folder.
+
+## 3. Add Firebase to the project:
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/).
+2. Create a new Firebase project.
+3. Add your app to the Firebase project.
+4. Download the `google-services.json` file and place it in the `app` directory of your project.
+
+## 4. Sync Firebase dependencies:
+
+1. In Android Studio, open the `build.gradle` files and ensure that the necessary Firebase dependencies are added.
+2. Use Firebase Authentication, Firebase Database, and Firebase Storage for syncing images and data.
+
+## 5. Build and Run the App:
+
+1. Once Firebase is configured and dependencies are synced, build and run the app on an emulator or device.
+
+## 6. App Usage
+
+1. Open the app to start journaling.
+2. Add a new entry by tapping the "Add" button.
+3. Choose or capture an image for your journal entry.
+4. Write your thoughts in the text field provided.
+5. Save the entry to store it in Firebase. You can view all your past journal entries in the app.
+
+## 7. Firebase Database Structure
+
+- **Users:**
+  - Each user’s journal entries are stored under their unique user ID.
+  
+- **Journal Entries:**
+  - Each entry contains:
+    - `imageUrl`: URL of the uploaded image.
+    - `thoughts`: Text of the user's thoughts.
+    - `timestamp`: Date and time of the journal entry.
+
+## 8. Contributing
+
+If you'd like to contribute to the Journal App, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a pull request with a description of the changes.
+
+## 9. License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 10. Acknowledgements
+
+- **Firebase**: For providing powerful backend services like database, authentication, and file storage.
+- **MVVM**: For helping maintain clean and scalable architecture.
+- **Android SDK**: For providing tools to build Android apps.
+
