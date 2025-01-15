@@ -21,7 +21,6 @@ A simple **Journal App** that allows users to create an account and login to add
 
 ## Screenshots
 
-_Add some screenshots of the app here (you can upload images to GitHub or any other image hosting platform and add the URLs)_
 
 ![Screenshot 1](https://github.com/MaddyRizvi/journal_app/blob/main/assets/login.png)
 ![Screenshot 2](https://github.com/MaddyRizvi/journal_app/blob/main/assets/loginscreen.png)
@@ -85,11 +84,7 @@ If you'd like to contribute to the Journal App, please follow these steps:
 4. Push to the branch (`git push origin feature-name`).
 5. Create a pull request with a description of the changes.
 
-## 9. License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 10. Acknowledgements
+## 9. Acknowledgements
 
 - **Firebase**: For providing powerful backend services like database, authentication, and file storage.
 - **MVVM**: For helping maintain clean and scalable architecture.
