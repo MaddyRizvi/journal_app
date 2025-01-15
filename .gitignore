@@ -1,0 +1,37 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+**/build/
+!gradle-wrapper.jar
+
+# Android Studio specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# User-specific files
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin specific files
+*.kotlin_module
+
+# IntelliJ IDEA specific files
+out/
+
+# Android specific files
+*.apk
+*.ap_
+*.aar
+*.stacktrace
+
+# Gradle Wrapper
+gradle-wrapper.jar
+
+# JetBrains specific files
+*.log
