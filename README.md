@@ -32,8 +32,6 @@ A simple **Journal App** that allows users to create an account and login to add
    ```bash
    git clone https://github.com/MaddyRizvi/journal_app
 
-# Journal App
-
 ## 2. Open the project in Android Studio:
 
 1. Open Android Studio and select Open an existing project.
@@ -84,7 +82,11 @@ If you'd like to contribute to the Journal App, please follow these steps:
 4. Push to the branch (`git push origin feature-name`).
 5. Create a pull request with a description of the changes.
 
-## 9. Acknowledgements
+## 9. License
+
+This project is for personal use and learning purposes. It is not licensed for commercial use.
+
+## 10. Acknowledgements
 
 - **Firebase**: For providing powerful backend services like database, authentication, and file storage.
 - **MVVM**: For helping maintain clean and scalable architecture.
